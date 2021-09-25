@@ -1,0 +1,13 @@
+gcc --version
+gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+
+Ways to compile C program in Linux:
+
+gcc cFileName.c
+./a.out
+
+gcc cFileName.c -o cFileName
+./cFileName
+
+gcc -o cFileName cFileName.c
+./cFileName
