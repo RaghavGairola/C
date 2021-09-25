@@ -1,0 +1,22 @@
+git --version
+git version 2.25.1
+
+git config --global user.name "Yourname"
+git config --global user.email "Youremail"
+
+git config --global --edit
+
+git init
+git status
+git add filename
+git commit -m "Your Message"
+
+git log
+
+git remote -v
+git remote add origin https://github.com/YourRepo.git
+git branch -M master
+git push -u origin master
+
+
+Generate token from github site
